@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: CircularSpTitle, CircularSpTitle-Tall, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif);
+}
+body{
+    background-color: #121212;
+   
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+     
+}
+.itens-registro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+h1{
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.paragrafo{
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-size: 100px;
+    font-weight: bold;
+    margin-right: 300px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+input{
+    background-color: #121212;
+    height: 80px;
+    border: 1px solid #727272;
+    border-radius: 4px;
+    padding-left: 10px ;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 30px;
+    width: 500px ;
+    
+
+}
+input:hover{
+    border: 1px solid white;
+    
+}
+.link-telefone{
+    color: #1ED760;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    margin-right: 230px;
+}
+
+.botao-seguinte{
+    width: 400px;
+    height: 80px;
+    background-color: #1ED760;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 60px;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.botao-seguinte:active{
+    background-color: #169c46;
+} 
+
+.iniciarSessao{
+    color: #FFFFFF;
+}
+
+.botoes{
+    text-align: center;
+    width: 500px;
+    height: 80px;
+   background-color: #121212;
+   color:#FFFFFF;
+   border: 1px solid #4C4C4C;
+   border-radius: 50px;
+   margin-top: 5px;
+   cursor: pointer;
+   font-size: 20px;
+   margin-top: 10px;
+
+}
+.botoes:hover{
+    opacity: 0.5;
+}
+.botoes:active{
+    opacity: 1;
+}
+.p{
+  margin-top: 60px;
+  font-weight: 700;
+  color:#A7A7A7 ;  
+}
+

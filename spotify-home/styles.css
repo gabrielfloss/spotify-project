@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: CircularSpTitle, CircularSpTitle-Tall, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif);
+    
+}
+
+ body{
+    background: #000000;
+    overflow: scroll;
+}  
+body::-webkit-scrollbar{
+    width: 20px;  
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb{
+
+    color: #595959;
+    background-color: #595959;
+    
+}
+body::-webkit-scrollbar-button{
+    background: none;
+}
+
+
+.body2{
+    display: flex;
+    align-items: start;
+    
+}
+
+.logo-spotify {
+    width: 100px;
+}
+
+.main-itens{
+    display: flex;
+    flex-direction: column;
+   
+}
+.container-inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    background-color: #121212;
+    width: 470px;
+    height: 160px;
+    border-radius: 8px;
+    padding-left: 31px;
+    margin: 5px;
+    a{
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+
+.container-biblioteca{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+    padding-top:20px ;
+    width: 470px;
+    height: 500px;
+    background-color: #121212;
+    border-radius: 8px;
+    margin: 5px;
+
+}
+
+
+#button-portuguese{
+  width: 100px;
+  margin-top: 20px ;
+  margin-bottom: 20px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  
+}
+
+#button-portuguese:hover{
+    border: 2px solid white;
+    letter-spacing: 0.5px;
+}
+
+.caixa-playlist{
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #242424;
+    width: 400px;
+    height: 130px;
+    border-radius: 8px;
+
+    button{
+        margin-top: 10px;
+        margin-left: 30px;
+        font-weight: bold;
+        background-color: #F6F6F6;
+        border: none;
+        border-radius: 30px;
+        margin-right: 30px;
+        width: 100px;
+        height: 30px;
+        cursor: pointer;
+    }
+    button:active{
+        background-color: #b7b7b7;
+    }
+}
+.caixa-podcast{
+    background-color: #242424;
+    width: 400px;
+    height: 200px;
+    border-radius: 8px;
+    padding: 6px;
+
+    button{
+        margin-top: 40px;
+        margin-left: 10px;
+        font-weight: bold;
+        background-color: #F6F6F6;
+        border: none;
+        border-radius: 30px;
+        margin-right: 30px;
+        width: 150px;
+        height: 30px;
+        cursor: pointer;
+    }
+    button:active{
+        background-color: #b7b7b7;
+    }
+    
+   
+}
+.sinalDeMais-biblioteca{
+     display: flex;
+     align-items: center;
+     gap: 300px;
+}
+.link-mais{
+    font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 19px;
+}
+.link-mais:hover{
+  
+    transition: 0.5s;
+    background-color: #191919;
+    border-radius:360px ;
+    width: 50px;
+
+}
+
+
+
+.titulo-da-biblioteca{
+    font-size: 18px;
+    font-weight:bold ;
+}
+
+.artistas-populares{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+
+}
+
+.img-cantoresPerfil{
+    width: 130px;
+    border-radius: 360px;
+    cursor: pointer;
+    margin-left: 19px;
+    cursor: pointer;
+    margin: 30px;
+
+}
+
+.card-musicos:hover{
+    
+    cursor: pointer;
+    background: rgb(26,26,26);
+    background: radial-gradient(circle, rgba(26,26,26,1) 0%, rgba(23,23,23,1) 100%);
+    border-radius: 8px;
+    width: 200px;
+    height: 300px;
+    img{
+        
+        opacity: 1;
+    }
+}
+.mexe-no-playbb{
+    display: flex;
+    justify-content: end;
+    
+}
+
+h2{
+    color: white;
+    cursor: pointer;
+}
+h2:hover{
+    font-weight: bold;
+    text-decoration: 15px solid white;
+}
+.redes-sociais-container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 160px;
+     
+}
+.sociais{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 20px;
+    margin-right:25px ;
+  
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #101010;
+    height: 100px;
+    margin-top: 5px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+   
+
+
+    a{
+        margin-right: 50px;
+        text-decoration: none;
+        
+    }
+    a:hover{
+       color: white;
+       text-decoration: 1px solid white;
+       font-weight: bold;
+    }
+}
+.botao-passaProLado{
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+   background-color: #040404;
+   color: white;
+   border: none;
+   cursor: pointer;
+   margin-left: 10px;
+   
+}
+
+.botao-iniciar-sessao{
+    font-weight: bold;
+   background-color: #F6F6F6;
+   border: none;
+   border-radius: 30px;
+   margin-right: 30px;
+   width: 160px;
+   height: 50px;
+   cursor: pointer;
+}
+.botao-iniciar-sessao:hover{
+   width: 170;
+   height: 60px ;
+   font-size: 14px;
+   font-weight: bold;
+}
+.botao-iniciar-sessao:active{
+    background-color: #b7b7b7;
+}
+
+.corpo-site{
+    height: 571px;   
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background: rgb(30,30,30);
+    background: linear-gradient(183deg, rgba(30,30,30,1) 0%, rgba(18,18,18,1) 100%);
+    padding-left: 20px;
+    overflow: scroll;
+}
+.corpo-site::-webkit-scrollbar{
+    width: 20px;  
+   
+}
+.corpo-site::-webkit-scrollbar-thumb{
+
+    color: #595959;
+    background-color: #595959;
+    
+}
+.corpo-site::-webkit-scrollbar-button{
+    background-color: none;
+    color: none;
+}
+
+
+.footer{
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3px;
+    padding-left:100px ;
+    position: fixed;
+    cursor: pointer;
+    background: rgb(174,40,150);
+    background: linear-gradient(90deg, rgba(174,40,150,1) 0%, rgba(81,154,244,1) 100%);
+    height: 70px;
+    border: 5px solid #000000;
+    width: 100%;
+    text-decoration: none;
+    
+}
+
+.register-button{
+    background-color: #F6F6F6;
+    border: none;
+    width: 213px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 30px;
+    
+}
+.register-button:hover{
+    background-color: transparent;
+    border: 0.5px solid #000000;
+    color: white;
+    text-decoration: 1px;
+    
+}
+.register-button:active{
+    opacity: 0.3;
+    border: 0.4px solid white;
+    
+}
+
+
+p{
+    color: white;
+}
+a{
+    color: #A7A7A7;
+    cursor: pointer;
+}
+a:hover{
+  color: white;
+}
+
+
+.links-artistas-tudo{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.botao-play{
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+    margin-bottom: 700px;
+    transition: 0.5s;
+}
+.botao-play:hover{
+   height:60px ;
+   width: 60px;
+}
+.botao-play:active{
+    opacity: 0.4;
+}
+
+.genial{
+    display: flex;
+    justify-content: end;   
+
+}
+
+
+
+
